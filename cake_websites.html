@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;box-sizing: border-box;}
+        .fl{float: left;}
+        .fr{float: right;}
+        .new{margin-left:1%; float: left;}
+        /* HEADER 1  AND HERDER 2 */
+        .header-all{
+            text-align: center;
+            /* color: white; */
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 10px;
+            text-transform: capitalize;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            text-shadow: 1px 1px 6px black;
+        }
+        .header1{
+            width:100%;
+            height: 150px;
+            background-color:#ffecd4;
+            border:2px solid black;
+            position: sticky;
+            top: 0px;
+        }
+        .header1 img{
+            border-radius: 50px;
+        }
+        .header2{
+            width: 100%;
+            height: 30px;
+            background-color: black;
+
+        }
+        .header2 a{
+            color: aliceblue;
+            text-decoration: none;
+            text-transform: capitalize;
+            margin-top: 2px;
+            font-size: 20px;
+            position: relative;
+            left: 750px;
+            letter-spacing: 1px;
+            word-spacing: 1px;
+            margin: 15px;
+        }
+        .header1 img{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: 25px;
+            left: 30px;
+            border-radius: 40px red;
+            box-shadow: 2px 2px 10px black;
+        }
+        /* anchor taf header 1 */
+        .anchor{
+            text-decoration: none;
+            font-size: 24px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            position: relative;
+            right: -170px;
+            color: black;
+            margin: 10px;
+            text-shadow: 2px 2px 8px black;
+            letter-spacing: 2px;
+        }
+        /* 2px solid #ffecd4 */
+        /* 1px solid #f35c5c */
+        /* header1 */
+        input{
+            width:250px;
+            height: 40px;
+            background-color:white;
+            font-size: 18px;
+            position: relative;
+            right: -150px;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            box-shadow: 1px 1px 5px black;
+            
+        }
+        /* select */
+        select{
+            width: 100px;
+            height: 40px;
+            background-color:rgb(239, 13, 13);
+            border-radius: 8px;
+            font-size: 16px;
+            position: relative;
+            right: -50px;
+            box-shadow: 1px 1px 5px black;
+        }
+        .cakefactory{
+            width: 100%;
+            height: 100px;
+            border: 2px solid black;
+            background-color: black;
+        }
+        .cakefactory h1{
+            text-align: center;
+            /* background-color: black; */
+            color: white;
+            margin-top: 10px;
+            font-size: 64px;
+            text-transform: uppercase;
+            letter-spacing: 20px;
+            /* word-spacing: 10px; */
+            text-shadow: 2px 2px 6px white;
+        }
+        .img1{
+            width: 90%;
+            height: 500px;
+            /* transform: translate(65px,40px); */
+            margin:20px auto;
+            margin-left: 65px;
+        }
+        /* .h1{
+            text-align: center;
+        } */
+        /* box 1 start  */
+        .box{
+            width: 90%;
+            height: 500px;
+            /* border: 2px solid black; */
+            box-shadow: 2px 2px 6px black;
+            margin:20px auto;
+            background-color: #ffecd4;
+        }
+        .box2{
+            width: 20%;
+            height: 150px;
+            border: 2px solid transparent;
+            /* margin:auto; */
+            /* position: relative;
+            top: 57px;
+            right: -55px;*/
+            margin:30px;
+            /* transform: translate(60px,40px); */
+        }
+        .box2 img{
+            border-radius: 20px;
+            box-shadow: 1px 1px 4px black;
+        }
+        .sub-box{
+            width: 90%;
+            height: 250px;
+            /* border: 2px solid black; */
+            box-shadow: 2px 2px 6px black;
+            margin: 20px auto;
+            background-color:#ffecd4;
+        }
+        .sub-box2{
+            width: 20%;
+            height: 40px;
+            /* border: 2px solid black; */
+            background-color: white;
+            margin:78px;
+        }
+        /* .sub-box h1{
+            text-align: center;
+            margin: 5px auto;
+        } */
+        .sub-box-2{
+            width: 90%;
+            height:400px;
+            /* border: 2px solid black; */
+            margin: 20px auto;
+            background-color:#ffecd4;
+            box-shadow: 2px 2px 6px black;
+        }
+        .sub-box-2-1{
+            width: 20%;
+            height: 300px;
+            /* border: 2px solid black; */
+            margin: 30px;
+            /* box-shadow: 2px 2px 6px black; */
+        }
+        .sub-box-2-1 img{
+            border-radius: 20px;
+            box-shadow: 2px 2px 6px black;
+        }
+        .sub-box-2-1 h1{
+            text-align: center;
+            background-color: white;
+            text-shadow: 1px 1px 4px black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        /* .sub-box-2 h1{
+            text-align: center;
+        } */
+        .footer{
+            width: 100%;
+            height: 100px;
+            border: 2px solid black;
+            background-color: black;
+        }
+        .footer h1{
+            text-align: center;
+            color: white;
+        }
+        .footer p{
+            text-align: center;
+            color: white;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header2">
+        <a href="#mobile">📞call us - +91-7701962630</a>
+        <a href="#email">      ✉ email - xyzgmail.com</a>
+    </div>
+    <div class="header1">
+        <!-- search bar box editing next time -->
+        <img src="image/ef0955bfc1cc49b99508d91a5a5432ee (1).png" alt="img">
+        <!-- select tag input -->
+        <select>
+            <option value="0">Select city:</option>
+            <option value="1">ghaziabad</option>
+            <option value="2">delhi</option>
+            <option value="3">lucknow</option>
+            <option value="4">goa</option>
+            <option value="5">mumbai</option>
+            <option value="6">jaipur</option>
+            <option value="7">banaras</option>
+            <option value="8">kolkatta</option>
+            <option value="9">bihar</option>
+          </select>
+        <input type="text" placeholder="serach items......">
+        <a class="anchor" href="#home">HOME</a>
+        <a class="anchor" href="#cakeFLAVOUR">CAKE FLAVOUR</a>
+        <a class="anchor" href="#price">PRICE</a>
+        <a class="anchor" href="#design">DESIGN</a>
+        <a class="anchor" href="tesk2.html">🙍‍♂️ Sign_in</a>
+    </div>
+    <!-- company name -->
+    <div class="cakefactory">
+        <h1>cake factory</h1>
+    </div>
+    <div class="photo">
+        <img class="img1" src="image/cake.jpg" alt="" srcset="">
+    </div>
+    
+    <!-- 4 box start -->
+    <div class="box">
+        <h1 class="header-all">cakes : fresh and flavourful</h1>
+        <div class="box2 fl">
+            <img src="image/deva-williamson-tW0Ix_Ajg6Y-unsplash.jpg" width="100%" height="150px">
+        </div>
+        <div class="box2 new">
+            <img src="image/deva-williamson-pZZJwwNPy2k-unsplash.jpg" alt="" width="100%" height="150px">
+        </div>
+        <div class="box2 new">
+            <img src="image/heather-barnes-_TN1m5R1pFI-unsplash.jpg" alt="" width="100%" height="150px">
+        </div>
+        <div class="box2 new">
+            <img src="image/swapnil-dwivedi-Nl8Oa6ZuNcA-unsplash.jpg" alt="" width="100%" height="150px">
+        </div>
+        <!-- second 4 box -->
+        <div class="box2 fl">
+            <img src="image/deva-williamson-pZZJwwNPy2k-unsplash.jpg" alt="" width="100%" height="150px">
+        </div>
+        <div class="box2 new">
+            <img src="image/swapnil-dwivedi-Nl8Oa6ZuNcA-unsplash.jpg" alt="" width="100%" height="150px">
+        </div>
+        <div class="box2 new">
+            <img src="image/katie-rosario-QNyRp21hb5I-unsplash.jpg" alt="" width="100%" height="150px">
+        </div>
+        <div class="box2 new">
+            <img src="image/anthony-espinosa-6iqpLKqeaE0-unsplash.jpg" alt="" width="100%" height="150px">
+        </div>
+    </div>
+    <!-- price module complete as a soon  -->
+    <div class="sub-box">
+        <h1 class="header-all">shop by price cakes</h1>
+        <div class="sub-box2 fl"><h1>under RS-999</h1></div>
+        <div class="sub-box2 new"><h1>under RS-1499</h1></div>
+        <div class="sub-box2 new"><h1>above RS-1999</h1></div>
+    </div>
+    <!-- pics a flavour sub-box-2 -->
+    <div class="sub-box-2"> 
+        <h1 class="header-all">Design:cakes</h1>
+        <div class="sub-box-2-1 fl">
+            <img src="image/barbie.jpg" alt="" width="100%" height="220px">
+            <h1>barbie cake</h1>
+        </div>
+        <div class="sub-box-2-1 new">
+            <img src="image/cartoonimg.jpg" alt="" width="100%" height="220px">
+            <h1>cartoon cake</h1>
+        </div>
+        <div class="sub-box-2-1 new">
+            <img src="image/numbercake.jpg" alt="" width="100%" height="220px">
+            <h1>number cake</h1>
+        </div>
+        <div class="sub-box-2-1 new">
+            <img src="image/photoimg.jpg" alt="" width="100%" height="220px">
+            <h1>photo cake</h1>
+        </div>
+    </div>
+  <!-- footer desugn coloumn -->
+  <div class="footer">
+    <h1>&copy; 2023 All Right Reserved </h1>
+    <p>Design By Varun Gautam</p>
+  </div>
+</body>
+</html>
